@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (enteredUsername === username && enteredPassword === password && enteredCaptcha === captchaResult) {
             // Redirect to the specified page
-            window.location.href = "downloader.html";
+            window.location.href = "hh.md";
         } else {
             message.textContent = "Ungültige Anmeldedaten oder falsches Captcha.";
             captchaResult = generateCaptcha(); // Reset captcha
