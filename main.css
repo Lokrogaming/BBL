@@ -1,1 +1,48 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to right, red, black);
+        }
+        
+         .button {
+            background-color: transparent;
+            border: 2px solid #1DB954; /* Spotify Grün */
+            border-radius: 12px; /* Abgerundete Ecken */
+            color: #A0A0A0; /* Graue Schriftfarbe für "SPOTIFY PLAYER" */
+            font-size: 18px;
+            padding: 15px 30px;
+            margin: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button:hover {
+            background-color: rgba(29, 185, 84, 0.1); /* Leichte grüne Hintergrundfarbe beim Hover */
+        }
+/* Responsive adjustments for different screen sizes */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
 
+    .button {
+        width: 80%;
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+/* Adjustments for smaller devices */
+@media (max-width: 480px) {
+    .button {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
