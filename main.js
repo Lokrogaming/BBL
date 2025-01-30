@@ -1,6 +1,6 @@
 function backtomenu() {
-  window.open.href="sign-in.html"
+  window.location.href="sign-in.html"
 }
 function openadminpanel() {
-  window.open.href="admin-panel.html"
+  window.location.href="admin-panel.html"
 }
