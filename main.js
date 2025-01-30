@@ -2,15 +2,14 @@ function backtomenu() {
   window.location.href="sign-in.html"
 }
 function openadminpanel() {
-  window.location.href="admin-panel.html"
+  window.open("admin-panel.html", "_blank");
 }
 function openstats() {
-  window.location.href="https://github.com/Lokrogaming/BBL/pulse"
+  window.open("https://github.com/Lokrogaming/BBL/pulse", "_blank");
 }
 function opendiscordbbl() {
-  window.location.href="lokrogaming.github.io/Lokrogamer"
+  window.open("https://lokrogaming.github.io/Lokrogamer", "_blank");
 }
 function openwebsite() {
-  window.location.href="sites.google.com/view/lokrotest" target="_blank"
+  window.open("https://sites.google.com/view/lokrotest", "_blank");
 }
-
