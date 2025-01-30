@@ -11,6 +11,6 @@ function opendiscordbbl() {
   window.location.href="lokrogaming.github.io/Lokrogamer"
 }
 function openwebsite() {
-  window.location.href="sites.google.com/view/lokrotest
+  window.location.href="sites.google.com/view/lokrotest"
 }
 
